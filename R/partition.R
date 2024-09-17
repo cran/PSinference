@@ -1,6 +1,6 @@
 #' Split a matrix into blocks
 #'
-#' This function Split a matrix into a list of blocks (either by rows and  columns).
+#' This function split a matrix into a list of blocks (either by rows and columns).
 #'
 #' @param Matrix a matrix to split .
 #' @param nrows positive integer indicating the number of rows blocks.
@@ -8,15 +8,15 @@
 #'
 #' @return a list of partitioned submatrices
 #' @examples
-#' df = matrix(c(1,0.5,0,0,
+#' Mat = matrix(c(1,0.5,0,0,
 #'                   0.5,2,0,0,
 #'                   0,0,3,0.2,
-#'                   0, 0, 0.2,4), nr = 4, nc = 4, byrow = TRUE)
-#' partition(df,2,2)
+#'                   0, 0, 0.2,4), nrow = 4, ncol = 4, byrow = TRUE)
+#' partition(Matrix = Mat, nrows = 2, ncols = 2)
 #' @export
 
 partition <- function(Matrix, nrows, ncols) {
-  # split matrix into submatrices
+  # split the matrix into submatrices
   r <- dim(Matrix)[1]
   c <- dim(Matrix)[2]
   if (r < nrows & c < ncols) {
