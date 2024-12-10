@@ -1,7 +1,7 @@
 Package: PSinference
 Type: Package
 Title: Inference for Released Plug-in Sampling Single Synthetic Dataset
-Version: 0.2.1
+Version: 0.2.2
 Authors@R: c(
     person("Ricardo", "Moura", email = "rp.moura@fct.unl.pt", role = c("aut", "cre", "cph") , comment = c(ORCID = "0000-0002-3003-9235")),
     person("Mina", "Norouzirad", email = "mina.norouzirad@gmail.com", role = "aut" ,comment = c(ORCID = "0000-0003-0311-6888")),
@@ -14,10 +14,10 @@ License: GPL (>= 2)
 URL: https://github.com/ricardomourarpm/PSinference
 Imports: MASS, stats
 Encoding: UTF-8
-RoxygenNote: 7.3.2
+RoxygenNote: 7.2.3
 BugReports: https://github.com/ricardomourarpm/PSinference/issues
 NeedsCompilation: no
-Packaged: 2024-09-18 14:24:22 UTC; ricar
+Packaged: 2024-12-10 14:37:02 UTC; ricar
 Author: Ricardo Moura [aut, cre, cph] (<https://orcid.org/0000-0002-3003-9235>),
   Mina Norouzirad [aut] (<https://orcid.org/0000-0003-0311-6888>),
   Vítor Augusto [aut] (<https://orcid.org/0009-0004-9003-3558>),
@@ -25,4 +25,4 @@ Author: Ricardo Moura [aut, cre, cph] (<https://orcid.org/0000-0002-3003-9235>),
   FCT, I.P. [fnd] (under the scope of the projects UIDB/00297/2020 and
     UIDP/00297/2020 (NovaMath))
 Repository: CRAN
-Date/Publication: 2024-09-19 14:00:02 UTC
+Date/Publication: 2024-12-10 14:50:05 UTC
